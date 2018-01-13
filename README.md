@@ -1,6 +1,7 @@
 # Prometheus
 
-[![Circle CI](https://circleci.com/gh/vektorcloud/prometheus.svg?style=svg)](https://circleci.com/gh/vektorcloud/prometheus)
+![circleci][circleci]
+
 
 Minimal, Alpine-base image with Prometheus and optional basic auth
 
@@ -17,3 +18,5 @@ docker run -e BASIC_AUTH='user:...' -p 9091:9091 quay.io/vektorcloud/prometheus:
 ```
 
 Omit the `BASIC_AUTH` variable to disable auth
+
+[circleci]: https://img.shields.io/circleci/project/github/vektorcloud/prometheus.svg "prometheus"
