@@ -1,6 +1,6 @@
 # Prometheus
 
-![circleci][circleci]
+[![circleci][circleci]](https://circleci.com/gh/vektorcloud/prometheus)
 
 
 Minimal, Alpine-base image with Prometheus and optional basic auth
